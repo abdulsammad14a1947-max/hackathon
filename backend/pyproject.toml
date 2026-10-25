@@ -1,0 +1,15 @@
+[project]
+name = "hcm-lite-backend"
+version = "1.0.0"
+description = "HCM Lite — AI-assisted Human Capital Management backend (FastAPI)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100

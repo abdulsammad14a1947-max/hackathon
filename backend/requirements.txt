@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.51.0
+sqlalchemy==2.0.36
+pydantic==2.13.4
+pydantic-settings==2.7.0
+alembic==1.18.4
+PyJWT==2.13.0
+bcrypt==4.0.1
+python-multipart==0.0.32
+email-validator==2.3.0
+reportlab==5.0.0
+httpx==0.28.1
+pytest==9.0.3
+pytest-asyncio==1.3.0
+psycopg[binary]==3.3.4
+python-dotenv==1.0.1
+# M10 face attendance: server-side detection + recognition (YuNet/SFace via DNN)
+numpy==2.4.6
+opencv-python-headless==5.0.0.93
